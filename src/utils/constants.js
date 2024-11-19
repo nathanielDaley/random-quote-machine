@@ -1,3 +1,13 @@
+export const colors = [
+  "primary",
+  "secondary",
+  "success",
+  "danger",
+  "warning",
+  "info",
+  "dark",
+];
+
 export const quotes = [
   {
     quote: "Life isn’t about getting and having, it’s about giving and being.",
