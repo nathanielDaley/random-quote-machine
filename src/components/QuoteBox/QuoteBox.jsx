@@ -13,7 +13,11 @@ function QuoteBox({ quote, color, onNewQuote }) {
           <h4 className={`card-text text-end text-${color}`} id="author">
             - {quote.author}
           </h4>
-          <a className="btn btn-primary mt-4" id="tweet-quote">
+          <a
+            className="btn btn-primary mt-4"
+            id="tweet-quote"
+            href={`https://twitter.com/intent/tweet?text=${quote.quote}`}
+          >
             <FaTwitter />
           </a>
           <button className="btn btn-primary mt-4 tumblr-button">
