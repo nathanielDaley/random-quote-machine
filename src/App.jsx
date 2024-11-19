@@ -23,7 +23,9 @@ function App() {
   }, []);
 
   return (
-    <div className={`app bg-${color}`}>
+    <div
+      className={`app d-flex justify-content-center align-items-center bg-${color}`}
+    >
       <QuoteBox quote={quote} color={color} onNewQuote={changeColor} />
     </div>
   );

@@ -1,16 +1,4 @@
 .app {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   transition: background-color 1s linear;
-}
-
-.card-title {
-  transition: color 1s linear;
-}
-
-.card-text {
-  transition: color 1s linear;
 }

@@ -1,0 +1,15 @@
+.card-title {
+  transition: color 1s linear;
+}
+
+.card-text {
+  transition: color 1s linear;
+}
+
+.tumblr-button {
+  margin-left: 10px;
+}
+
+.new-quote-button {
+  float: right;
+}

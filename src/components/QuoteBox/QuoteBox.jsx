@@ -16,15 +16,11 @@ function QuoteBox({ quote, color, onNewQuote }) {
           <a className="btn btn-primary mt-4" id="tweet-quote">
             <FaTwitter />
           </a>
-          <button
-            className="btn btn-primary mt-4"
-            style={{ marginLeft: "10px" }}
-          >
+          <button className="btn btn-primary mt-4 tumblr-button">
             <FaTumblr />
           </button>
           <button
-            className="btn btn-primary mt-4"
-            style={{ float: "right" }}
+            className="btn btn-primary mt-4 new-quote-button"
             id="new-quote"
             onClick={onNewQuote}
           >
