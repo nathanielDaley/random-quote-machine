@@ -2,7 +2,7 @@
 
 A Simple QuoteBox created using React, Vite, and Bootstrap.
 
-This was created as one of the final project for the [https://www.freecodecamp.org/learn/](FreeCodeCamp) Front End Development Libraries Certification.
+This was created as one of the final projects for the [https://www.freecodecamp.org/learn/](FreeCodeCamp) Front End Development Libraries Certification.
 
 ## Links
 
