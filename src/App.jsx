@@ -17,6 +17,18 @@ function App() {
     setColor(newcolor);
   };
 
+  const clickNewQuote = () => {
+    const newQuote = getRandomQuote();
+
+    while (quote === newQuote) {
+      newQuote = getRandomQuote();
+    }
+
+    setQuote(newQuote);
+
+    changeColor();
+  };
+
   useEffect(() => {
     setQuote(getRandomQuote);
     changeColor();
@@ -26,7 +38,7 @@ function App() {
     <div
       className={`app d-flex justify-content-center align-items-center bg-${color}`}
     >
-      <QuoteBox quote={quote} color={color} onNewQuote={changeColor} />
+      <QuoteBox quote={quote} color={color} onNewQuote={clickNewQuote} />
     </div>
   );
 }
