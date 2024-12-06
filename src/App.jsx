@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { colors, quotes } from "./utils/constants";
 import QuoteBox from "./components/QuoteBox/QuoteBox.jsx";
+import gitHubIcon from "./assets/github.svg";
 
 function App() {
   const [quote, setQuote] = useState({});
@@ -35,10 +36,25 @@ function App() {
   }, []);
 
   return (
-    <div
-      className={`app d-flex justify-content-center align-items-center bg-${color}`}
-    >
-      <QuoteBox quote={quote} color={color} onNewQuote={clickNewQuote} />
+    <div className="page">
+      <div
+        className={`app d-flex justify-content-center align-items-center bg-${color}`}
+      >
+        <QuoteBox quote={quote} color={color} onNewQuote={clickNewQuote} />
+      </div>
+      <footer class="footer fixed-bottom bg-white">
+        <div class="container text-center">
+          <span class={`text-${color} copyright`}>
+            &copy; Nathaniel Daley 2024{" "}
+            <a
+              href="https://github.com/nathanielDaley/random-quote-machine"
+              target="_blank"
+            >
+              <img src={gitHubIcon}></img>
+            </a>
+          </span>
+        </div>
+      </footer>
     </div>
   );
 }
