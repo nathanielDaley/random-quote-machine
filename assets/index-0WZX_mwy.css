@@ -1,4 +1,4 @@
-@charset "UTF-8";:root{font-family:Inter,system-ui,Avenir,Helvetica,Arial,sans-serif;line-height:1.5;font-weight:400;color:#ffffffde;background-color:#242424}.app{height:100vh;transition:background-color 1s linear}.card-title,.card-text{transition:color 1s linear}.tumblr-button{margin-left:10px}.new-quote-button{float:right}/*!
+@charset "UTF-8";:root{font-family:Inter,system-ui,Avenir,Helvetica,Arial,sans-serif;line-height:1.5;font-weight:400;color:#ffffffde;background-color:#242424}.app{height:100vh;transition:background-color 1s linear}.copyright,.card-title,.card-text{transition:color 1s linear}.tumblr-button{margin-left:10px}.new-quote-button{float:right}/*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
