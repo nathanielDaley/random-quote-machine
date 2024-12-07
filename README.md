@@ -2,7 +2,7 @@
 
 A Simple QuoteBox created using React, Vite, and Bootstrap.
 
-This was created as one of the final projects for the [https://www.freecodecamp.org/learn/](FreeCodeCamp) Front End Development Libraries Certification.
+Link to the project description: [Build a Drum Machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine)
 
 ## Links
 
